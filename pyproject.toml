@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "open-linkedin-api"
+version = "2.3.1"
+description = "A Python API to interact with LinkedIn without using official API access."
+authors = ["J.Antonio Barba <falsigfx@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/EseToni/open-linkedin-api"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.13.3"
+lxml = "^5.3.1"
+idna = "^3.10"
+charset_normalizer = "^3.4.1"
+urllib3 = "^2.3.0"
+certifi = "^2025.1.31"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
