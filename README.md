@@ -7,7 +7,7 @@
 Search profiles, send messages, find jobs and more in Python. No official API access required.
 
 <p align="center">
-    <a href="https://linkedin-api.readthedocs.io">Documentation</a>
+    <a href="https://github.com/EseToni/open-linkedin-api/tree/main/documentation">Documentation</a>
     ·
     <a href="#quick-start">Quick Start</a>
     ·
@@ -52,7 +52,7 @@ pip install git+https://github.com/EseToni/open-linkedin-api
 ### Quick Start
 
 > [!TIP]
-> See all API methods on the [docs](https://linkedin-api.readthedocs.io/en/latest/api.html).
+> See all API methods on the [docs]([https://linkedin-api.readthedocs.io/en/latest/api.html](https://github.com/EseToni/open-linkedin-api/tree/main/documentation)).
 
 The following snippet demonstrates a few basic linkedin_api use cases:
 
