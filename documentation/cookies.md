@@ -24,8 +24,8 @@ cookies.set('li_at', 'your_li_at_cookie_value', domain='www.linkedin.com')
 cookies.set('JSESSIONID', 'ajax:your_jsessionid_cookie_value', domain='www.linkedin.com')
 
 # Authenticate using the cookies
-api = Linkedin(cookies=cookies, username='example@gmail.com')
+# Make sure to pass an empty password when using cookies
+api = Linkedin(cookies=cookies, username='example@gmail.com', password='')
 
 # Fetch a LinkedIn profile using the authenticated session
 profile = api.get_profile('public_identifier')
-```
