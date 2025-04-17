@@ -66,7 +66,8 @@ cookies.set('li_at', 'your_li_at_cookie_value', domain='www.linkedin.com')
 cookies.set('JSESSIONID', 'ajax:your_jsessionid_cookie_value', domain='www.linkedin.com')
 
 # Authenticate using cookies and proxy settings
-api = Linkedin(username='example@gmail.com', cookies=cookies, proxies=proxies)
+# Make sure to pass an empty password when using cookies
+api = Linkedin(username='example@gmail.com', password='', cookies=cookies, proxies=proxies)
 
 # Fetch a LinkedIn profile
 profile = api.get_profile('public_identifier')
