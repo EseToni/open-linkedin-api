@@ -27,9 +27,9 @@ class Client(object):
     REQUEST_HEADERS = {
         "user-agent": " ".join(
             [
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5)",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
                 "AppleWebKit/537.36 (KHTML, like Gecko)",
-                "Chrome/83.0.4103.116 Safari/537.36",
+                "Chrome/131.0.0.0 Safari/537.36",
             ]
         ),
         # "accept": "application/vnd.linkedin.normalized+json+2.1",
@@ -41,8 +41,8 @@ class Client(object):
 
     # Settings for authenticating with Linkedin
     AUTH_REQUEST_HEADERS = {
-        "X-Li-User-Agent": "LIAuthLibrary:0.0.3 com.linkedin.android:4.1.881 Asus_ASUS_Z01QD:android_9",
-        "User-Agent": "ANDROID OS",
+        "X-Li-User-Agent": "LIAuthLibrary:3.2.4 com.linkedin.LinkedIn:8.8.1 Chrome:131.0",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
         "X-User-Language": "en",
         "X-User-Locale": "en_US",
         "Accept-Language": "en-us",
